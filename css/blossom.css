@@ -1,0 +1,23 @@
+ 
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format') center/cover;
+            height: 80vh;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .tech-icon {
+            font-size: 3rem;
+            color: #198754;
+            margin-bottom: 1rem;
+        }
+        .feature-box {
+            padding: 2rem;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .feature-box:hover {
+            transform: translateY(-5px);
+        }
